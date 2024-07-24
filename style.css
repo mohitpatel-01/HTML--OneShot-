@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid #25dffc;
+    border-top: 10px solid #4646ff;
+    animation: spinAnimate 2s  infinite forwards;
+
+} 
+@keyframes spinAnimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
